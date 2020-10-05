@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>HiCoders - CSS - Profile Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="I am a developer in web applications." />
+    <meta name="keywords" content="profile, yavuz, css, layout" />
+    <meta name="robots" content="index, follow" />
+    <meta name="google" content="notranslate" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:title" content="yavuz's profile" />
+    <meta name="twitter:site" content="@yavuz-ozbay" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <article class="header-info">
+          <h1>I am a developer</h1>
+          <p>
+            I am a highly competent IT professional with a proven track record
+            in designing websites, networking and managing databases. I have
+            strong technical skills as well as excellent interpersonal skills,
+            enabling me to interact with a wide range of clients. I am eager to
+            be challenged in order to grow and further improve my IT skills. My
+            greatest passion is in life is using my technical know-how to
+            benefit other people and organisations.
+          </p>
+        </article>
+      </header>
+      <!-- the content which includes the main app -->
+      <section id="content-container">
+        <!-- left side has the social media infos -->
+        <aside id="left-side">
+          <figure>
+            <img
+              class="profile-image"
+              src="https://picsum.photos/id/684/600/400"
+              alt="lorem_ipsum"
+            />
+            <!-- figcaption taginin kullanimini ilk kez goruyoruz-->
+            <figcaption>yavuz ozbay</figcaption>
+          </figure>
+          <div class="social-media">
+            <!-- img lere alt attribuiti ile isim girilmemis -->
+            <img src="./img/email.png" />
+            <span>info@myhotmail.com</span>
+          </div>
+          <div class="social-media">
+            <img src="./img/facebook.png" />
+            <span>/myfacebook</span>
+          </div>
+          <div class="social-media">
+            <img src="./img/instagram.png" />
+            <span>@myinstagram</span>
+          </div>
+          <div class="social-media">
+            <img src="./img/linkedin.png" />
+            <span>@mylinkedin</span>
+          </div>
+          <div class="social-media">
+            <img src="./img/twitter.png" />
+            <span>@mytwitter</span>
+          </div>
+        </aside>
+
+        <!-- All the informaition about the person. -->
+        <section class="right-side">
+          <fieldset>
+            <legend>Personal</legend>
+            <label>Firstname: </label>
+            <div>Yavuz</div>
+            <br />
+            <label>Lastname: </label>
+            <div>ozbay</div>
+            <br />
+            <label>Birthdate: </label>
+            <div>12.12.1983</div>
+            <br />
+          </fieldset>
+
+          <fieldset>
+            <legend>Profession</legend>
+            <blockquote>
+              Insani abad eder gayret ile calismak , fakat isin zor yani
+              alismak!
+            </blockquote>
+            <span>Anonim..</span>
+            <br /><br />
+            <table>
+              <tr>
+                <th>Period</th>
+                <th>Company</th>
+                <th>Role</th>
+                <th>Salary</th>
+              </tr>
+              <tr>
+                <td>2019-2020</td>
+                <td>Google Inc</td>
+                <td>Software Engineering Manager</td>
+                <td>300K</td>
+              </tr>
+              <tr>
+                <td>2016-2019</td>
+                <td>Microsoft</td>
+                <td>Team Leader</td>
+                <td>200K</td>
+              </tr>
+              <tr>
+                <td>2013-2016</td>
+                <td>Software AG</td>
+                <td>Senior Software Engineer</td>
+                <td>135K</td>
+              </tr>
+              <tr>
+                <td>2009-2013</td>
+                <td>FiFa</td>
+                <td>Software Engineer</td>
+                <td>125K</td>
+              </tr>
+              <caption>
+                my education history
+              </caption>
+            </table>
+          </fieldset>
+
+          <fieldset>
+            <legend>Education</legend>
+            <blockquote>
+                I am not interested to know whether Vivisection produces results that are profitable to the human race or doesn't. ... The pains which it inflicts upon unconsenting animals is the basis of my enmity towards it, and it is to me sufficient justification of the enmity without looking further.
+            </blockquote>
+            <span>Mark Twain</span>
+            <br /><br />
+            <table>
+              <!-- caption tag ' ini burada acmak semantik olarak daha uygun olurdu' -->
+              <tr>
+                <th>Graduate Year</th>
+                <th>School</th>
+                <th>Major</th>
+                <th>Grade</th>
+              </tr>
+              <tr>
+                <td>2020</td>
+                <td>Michigan University</td>
+                <td>Phd. Software Engineering</td>
+                <td>3.6</td>
+              </tr>
+              <tr>
+                <td>2014</td>
+                <td>London University</td>
+                <td>Msc. Software Engineering</td>
+                <td>3.8</td>
+              </tr>
+              <tr>
+                <td>2007</td>
+                <td>ETH Zürich</td>
+                <td>Bsc. Computer Engineering</td>
+                <td>3.2</td>
+              </tr>
+              <caption>
+                my education history
+              </caption>
+            </table>
+          </fieldset>
+
+          <fieldset>
+            <legend>Children</legend>
+            <!-- blockquote taginin kullanimini ilk kez goruyoruz -->
+            <blockquote>
+              We worry about what a child will become tomorrow, yet we forget
+              that he is someone today.
+            </blockquote>
+            <span>Stacia Tauscher, dancer and artist</span>
+            <br /><br />
+            <table>
+              <!-- caption tag ' ini burada acmak semantik olarak daha uygun olurdu' -->
+              <!-- <caption>my lovely kids, sorted by birthdate</caption> -->
+              <tr>
+                <th>First Name</th>
+                <th>Birthdate</th>
+                <th>Class</th>
+              </tr>
+              <tr>
+                <td>Sally</td>
+                <td>12.09.2007</td>
+                <td>7</td>
+              </tr>
+              <tr>
+                <td>Kelly</td>
+                <td>01.02.2009</td>
+                <td>5</td>
+              </tr>
+              <tr>
+                <td>Helly</td>
+                <td>04.06.20011</td>
+                <td>3</td>
+              </tr>
+              <caption>
+                my lovely kids, sorted by birthdate
+              </caption>
+            </table>
+          </fieldset>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>
