@@ -52,6 +52,7 @@ main{
 }
 
 header{
+    width: 800px;
     background: url("https://cdn.cjr.org/wp-content/uploads/2019/07/AdobeStock_100000042-e1563305717660-686x371.jpeg") no-repeat;
     background-size: cover;
     padding: 20px;
@@ -59,14 +60,17 @@ header{
 
 #content-container{
     display: flex;
+    position: sticky;
+    top: 0;
 }
 
 #left-side{
-  flex-grow: 1;
+    flex-grow: 1;
 }
 
 #right-side{
     flex-grow: 3;
+    
 }
 
 fieldset{
@@ -82,6 +86,10 @@ figure{
 
 .profile-image{
     max-width: 200px;
+    border-color: darkslategray;
+  background-color: green;
+  border: 2px solid #4CAF50;
+    
 }
 
 /*social meda div taginin altindaki tÃ¼m img taglari kestediliyor*/
