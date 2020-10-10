@@ -5,7 +5,7 @@ General Styling
     box-sizing: border-box;
 }
 body {
-    background-color: rgb(216, 240, 231);
+    background-color: rgb(247, 239, 244);
 }
 /********************
 Typology
@@ -19,7 +19,7 @@ legend{
 }
 blockquote{
     font-size: 16px;
-    color: #bd8484;
+    color: #8f2020;
     font-style: italic;
 }
 /*fieldset altindaki tÃ¼m spanler*/
@@ -35,12 +35,12 @@ blockquote{
 }
 
 tr:nth-child(even){
-    background: rgb(212, 221, 135);
+    background: rgb(66, 144, 196);
     box-shadow: 5px 10px 8px #888888;
 }
 
 th{
-    background: #333333;
+    background: #5486c7;
     color: rgb(201, 136, 136);
     box-shadow: 5px 10px 8px #888888;
 }
@@ -125,7 +125,7 @@ th{
 }
 
 tr:nth-child(even) {
-    background: rgb(212, 221, 135);
+    background: rgb(215, 164, 218);
 }
 
 td{
