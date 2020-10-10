@@ -4,9 +4,6 @@ General Styling
 *{
     box-sizing: border-box;
 }
-body {
-    background-color: rgb(247, 239, 244);
-}
 /********************
 Typology
 ********************/
@@ -31,7 +28,7 @@ fieldset span{
 Colors
 ********************/
 blockquote{
-    color: #e0abab;
+    color: #635757;
 }
 
 tr:nth-child(even){
