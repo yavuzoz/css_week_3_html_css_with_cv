@@ -36,11 +36,13 @@ blockquote{
 
 tr:nth-child(even){
     background: rgb(212, 221, 135);
+    box-shadow: 5px 10px 8px #888888;
 }
 
 th{
     background: #333333;
     color: rgb(201, 136, 136);
+    box-shadow: 5px 10px 8px #888888;
 }
 
 /********************
@@ -115,6 +117,7 @@ caption{
     font-size: 16px;
     text-shadow: 1px 1px 1px rgb(96, 139, 129);
     text-transform: capitalize;
+    box-shadow: 5px 10px 8px #888888;
 }
 
 th{
